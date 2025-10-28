@@ -68,6 +68,7 @@
 	</Hotel>
 	<Hotel Rating="4.15">
         <Name>Martinique New York</Name>
+        <Phone>217-736-3800</Phone>
         <Address NearestAirport="Laguardia Airport">
             <Number>49</Number> 
             <Street>W 32nd Street</Street>

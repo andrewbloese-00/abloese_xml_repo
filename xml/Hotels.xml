@@ -69,6 +69,7 @@
 	</Hotel>
 	<Hotel Rating="4.15">
         <Name>Martinique New York</Name>
+        <Phone>212-736-3800</Phone>
         <Address NearestAirport="Laguardia Airport">
             <Number>49</Number> 
             <Street>W 32nd Street</Street>
@@ -112,6 +113,7 @@
 	</Hotel>
 	<Hotel Rating="3.5">
         <Name>The Lemon Tree Hotel</Name>
+        <Phone>714-772-0200</Phone>
         <Address NearestAirport="Ontario International Airport">
             <Number>1600</Number> 
             <Street>East Lincoln Avenue</Street>
