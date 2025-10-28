@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Hotels xmlns="<ns-url>" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="<schema-url>">
+<Hotels xmlns="https://andrewbloese-00.github.io/abloese_xml_repo/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://andrewbloese-00.github.io/abloese_xml_repo/xml/Hotels.xsd">
 	<Hotel Rating="4.2">
         <Name>
             Westin
