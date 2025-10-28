@@ -1,275 +1,123 @@
 <?xml version="1.0"?>
 <Hotels xmlns="https://andrewbloese-00.github.io/abloese_xml_repo/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://andrewbloese-00.github.io/abloese_xml_repo/xml/Hotels.xsd">
 	<Hotel Rating="4.2">
-        <Name>
-            Westin
-        </Name>
-        <Phone>
-            480-968-8885
-        </Phone>
-        <Phone>
-            800-937-8461
-        </Phone>
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
         <Address NearestAirport="Sky Harbor">
-            <Number> 
-                11
-            </Number> 
-            <Street>
-                E. 7th Street
-            </Street>
-            <City>
-                Tempe
-            </City>
-            <State>
-                AZ
-            </State>
-            <Zip>
-                85281
-            </Zip>
-        </Address>
-	</Hotel>
-	<Hotel >
-        <Name>
-            Embassy Suites by Hilton
-        </Name>
-        <Phone>
-            480-897-7444
-        </Phone>
-        <Address NearestAirport="Sky Harbor">
-            <Number> 
-                4400
-            </Number> 
-            <Street>
-                S. Rural Road
-            </Street>
-            <City>
-                Tempe
-            </City>
-            <State>
-                AZ
-            </State>
-            <Zip>
-                85282
-            </Zip>
-        </Address>
-	</Hotel>
-	<Hotel Rating="4.4">
-        <Name>
-            Four Points by Sheraton
-        </Name>
-        <Phone>
-            480-579-2100
-        </Phone>
-        <Address NearestAirport="Phoenix-Mesa Gateway">
-            <Number> 
-                6580
-            </Number> 
-            <Street>
-                E Williams Field Road
-            </Street>
-            <City>
-                Mesa
-            </City>
-            <State>
-                AZ
-            </State>
-            <Zip>
-                85212
-            </Zip>
-        </Address>
-	</Hotel>
-	<Hotel Rating="3.9">
-        <Name>
-            Sonesta Los Angeles Airport
-        </Name>
-        <Phone>
-            310-642-7500
-        </Phone>
-        <Address NearestAirport="Los Angeles International Airport">
-            <Number> 
-                5985
-            </Number> 
-            <Street>
-                W Century Blvd
-            </Street>
-            <City>
-                Los Angeles
-            </City>
-            <State>
-                CA
-            </State>
-            <Zip>
-                90045
-            </Zip>
-        </Address>
-	</Hotel>
-	<Hotel Rating="4.3">
-        <Name>
-            Long Beach Marriott
-        </Name>
-        <Phone>
-            562-425-5210
-        </Phone>
-        <Address NearestAirport="Long Beach Airport">
-            <Number> 
-                4700
-            </Number> 
-            <Street>
-                Airport Plaza Dr
-            </Street>
-            <City>
-                Long Beach
-            </City>
-            <State>
-                CA
-            </State>
-            <Zip>
-                90815
-            </Zip>
-        </Address>
-	</Hotel>
-	<Hotel Rating="4.5">
-        <Name>
-            Tempe Mission Palms
-        </Name>
-        <Phone>
-            480-894-1400
-        </Phone>
-        <Address NearestAirport="Sky Harbor">
-            <Number> 
-                60
-            </Number> 
-            <Street>
-                E 5th Street
-            </Street>
-            <City>
-                Tempe
-            </City>
-            <State>
-                AZ
-            </State>
-            <Zip>
-                85281
-            </Zip>
-        </Address>
-	</Hotel>
-	<Hotel Rating="4.15">
-        <Name>
-            Martinique New York
-        </Name>
-        <Address NearestAirport="Laguardia Airport">
-            <Number> 
-                49
-            </Number> 
-            <Street>
-                W 32nd Street
-            </Street>
-            <City>
-                New York
-            </City>
-            <State>
-                NY
-            </State>
-            <Zip>
-                10001
-            </Zip>
+            <Number>11</Number> 
+            <Street>E. 7th Street</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
         </Address>
 	</Hotel>
 	<Hotel>
-        <Name>
-            Hotel Indigo
-        </Name>
-        <Phone>
-            877-859-5095
-        </Phone>
-        <Address NearestAirport="Laguardia Airport">
-            <Number> 
-                171
-            </Number> 
-            <Street>
-                Ludlow Street
-            </Street>
-            <City>
-                New York
-            </City>
-            <State>
-                NY
-            </State>
-            <Zip>
-                10002
-            </Zip>
+        <Name>Embassy Suites by Hilton</Name>
+        <Phone>480-897-7444</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>4400</Number> 
+            <Street>S. Rural Road</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85282</Zip>
         </Address>
 	</Hotel>
-	<Hotel Rating="4.25">
-        <Name>
-            The Drake
-        </Name>
-        <Phone>
-            312-787-2200
-        </Phone>
-        <Address NearestAirport="Chicago Midway International Airport">
-            <Number> 
-                140
-            </Number> 
-            <Street>
-                East Walton Place
-            </Street>
-            <City>
-                Chicago
-            </City>
-            <State>
-                IL
-            </State>
-            <Zip>
-                60611
-            </Zip>
+	<Hotel Rating="4.4">
+        <Name>Four Points by Sheraton</Name>
+        <Phone>480-579-2100</Phone>
+        <Address NearestAirport="Phoenix-Mesa Gateway">
+            <Number>6580</Number> 
+            <Street>E Williams Field Road</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85212</Zip>
+        </Address>
+	</Hotel>
+	<Hotel Rating="3.9">
+        <Name>Sonesta Los Angeles Airport</Name>
+        <Phone>310-642-7500</Phone>
+        <Address NearestAirport="Los Angeles International Airport">
+            <Number>5985</Number> 
+            <Street>W Century Blvd</Street>
+            <City>Los Angeles</City>
+            <State>CA</State>
+            <Zip>90045</Zip>
+        </Address>
+	</Hotel>
+	<Hotel Rating="4.3">
+        <Name>Long Beach Marriott</Name>
+        <Phone>562-425-5210</Phone>
+        <Address NearestAirport="Long Beach Airport">
+            <Number>4700</Number> 
+            <Street>Airport Plaza Dr</Street>
+            <City>Long Beach</City>
+            <State>CA</State>
+            <Zip>90815</Zip>
+        </Address>
+	</Hotel>
+	<Hotel Rating="4.5">
+        <Name>Tempe Mission Palms</Name>
+        <Phone>480-894-1400</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>60</Number> 
+            <Street>E 5th Street</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
         </Address>
 	</Hotel>
 	<Hotel Rating="4.15">
-        <Name>
-            Club Quarters Hotel Central Loop
-        </Name>
-        <Phone>
-            312-214-6400
-        </Phone>
+        <Name>Martinique New York</Name>
+        <Address NearestAirport="Laguardia Airport">
+            <Number>49</Number> 
+            <Street>W 32nd Street</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10001</Zip>
+        </Address>
+	</Hotel>
+	<Hotel>
+        <Name>Hotel Indigo</Name>
+        <Phone>877-859-5095</Phone>
+        <Address NearestAirport="Laguardia Airport">
+            <Number>171</Number> 
+            <Street>Ludlow Street</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10002</Zip>
+        </Address>
+	</Hotel>
+	<Hotel Rating="4.25">
+        <Name>The Drake</Name>
+        <Phone>312-787-2200</Phone>
+        <Address NearestAirport="Chicago Midway International Airport">
+            <Number>140</Number> 
+            <Street>East Walton Place</Street>
+            <City>Chicago</City>
+            <State>IL</State>
+            <Zip>60611</Zip>
+        </Address>
+	</Hotel>
+	<Hotel Rating="4.15">
+        <Name>Club Quarters Hotel Central Loop</Name>
+        <Phone>312-214-6400</Phone>
         <Address NearestAirport="Chicago Midway International">
-            <Number> 
-                111
-            </Number> 
-            <Street>
-                West Adams Street
-            </Street>
-            <City>
-                Chicago
-            </City>
-            <State>
-                IL
-            </State>
-            <Zip>
-                60604
-            </Zip>
+            <Number>111</Number> 
+            <Street>West Adams Street</Street>
+            <City>Chicago</City>
+            <State>IL</State>
+            <Zip>60604</Zip>
         </Address>
 	</Hotel>
 	<Hotel Rating="3.5">
-        <Name>
-            The Lemon Tree Hotel
-        </Name>
+        <Name>The Lemon Tree Hotel</Name>
         <Address NearestAirport="Ontario International Airport">
-            <Number> 
-                1600
-            </Number> 
-            <Street>
-                East Lincoln Avenue
-            </Street>
-            <City>
-                Anaheim
-            </City>
-            <State>
-                CA
-            </State>
-            <Zip>
-                92805
-            </Zip>
+            <Number>1600</Number> 
+            <Street>East Lincoln Avenue</Street>
+            <City>Anaheim</City>
+            <State>CA</State>
+            <Zip>92805</Zip>
         </Address>
 	</Hotel>
 </Hotels>
