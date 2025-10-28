@@ -45,7 +45,7 @@
             <City>Los Angeles</City>
             <State>CA</State>
             <Zip>90045</Zip>
-        <!-- Error (4) address has no closing tag -->
+        </Address>
 	</Hotel>
 	<Hotel Rating="4.3">
         <Name>Long Beach Marriott</Name>
@@ -124,6 +124,6 @@
             <City>Anaheim</City>
             <State>CA</State>
             <Zip>92805</Zip>
-        </Address>
+        <!-- Error (4) address has no closing tag -->
 	</Hotel>
 </Hotels>
