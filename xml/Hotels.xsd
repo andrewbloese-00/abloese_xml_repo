@@ -1,4 +1,4 @@
-<? xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <xsd:schema 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -20,7 +20,7 @@
 
     <xsd:complexType name="HotelDetailsType">
         <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
-        <xsd:all>
+        <xsd:sequence>
             <xsd:element
                 name="Name"
                 type="xsd:string"
@@ -86,57 +86,57 @@
     <!-- All valid US State Abbreviations -->
     <xsd:simpleType name="USStateCode">
         <xsd:restriction base="xsd:string">
-            <xs:enumeration value="AL"/>
-            <xs:enumeration value="AK"/>
-            <xs:enumeration value="AZ"/>
-            <xs:enumeration value="AR"/>
-            <xs:enumeration value="CA"/>
-            <xs:enumeration value="CO"/>
-            <xs:enumeration value="CT"/>
-            <xs:enumeration value="DE"/>
-            <xs:enumeration value="FL"/>
-            <xs:enumeration value="GA"/>
-            <xs:enumeration value="HI"/>
-            <xs:enumeration value="ID"/>
-            <xs:enumeration value="IL"/>
-            <xs:enumeration value="IN"/>
-            <xs:enumeration value="IA"/>
-            <xs:enumeration value="KS"/>
-            <xs:enumeration value="KY"/>
-            <xs:enumeration value="LA"/>
-            <xs:enumeration value="ME"/>
-            <xs:enumeration value="MD"/>
-            <xs:enumeration value="MA"/>
-            <xs:enumeration value="MI"/>
-            <xs:enumeration value="MN"/>
-            <xs:enumeration value="MS"/>
-            <xs:enumeration value="MO"/>
-            <xs:enumeration value="MT"/>
-            <xs:enumeration value="NE"/>
-            <xs:enumeration value="NV"/>
-            <xs:enumeration value="NH"/>
-            <xs:enumeration value="NJ"/>
-            <xs:enumeration value="NM"/>
-            <xs:enumeration value="NY"/>
-            <xs:enumeration value="NC"/>
-            <xs:enumeration value="ND"/>
-            <xs:enumeration value="OH"/>
-            <xs:enumeration value="OK"/>
-            <xs:enumeration value="OR"/>
-            <xs:enumeration value="PA"/>
-            <xs:enumeration value="RI"/>
-            <xs:enumeration value="SC"/>
-            <xs:enumeration value="SD"/>
-            <xs:enumeration value="TN"/>
-            <xs:enumeration value="TX"/>
-            <xs:enumeration value="UT"/>
-            <xs:enumeration value="VT"/>
-            <xs:enumeration value="VA"/>
-            <xs:enumeration value="WA"/>
-            <xs:enumeration value="WV"/>
-            <xs:enumeration value="WI"/>
-            <xs:enumeration value="WY"/>
-            <xs:enumeration value="DC"/>
+            <xsd:enumeration value="AL"/>
+            <xsd:enumeration value="AK"/>
+            <xsd:enumeration value="AZ"/>
+            <xsd:enumeration value="AR"/>
+            <xsd:enumeration value="CA"/>
+            <xsd:enumeration value="CO"/>
+            <xsd:enumeration value="CT"/>
+            <xsd:enumeration value="DE"/>
+            <xsd:enumeration value="FL"/>
+            <xsd:enumeration value="GA"/>
+            <xsd:enumeration value="HI"/>
+            <xsd:enumeration value="ID"/>
+            <xsd:enumeration value="IL"/>
+            <xsd:enumeration value="IN"/>
+            <xsd:enumeration value="IA"/>
+            <xsd:enumeration value="KS"/>
+            <xsd:enumeration value="KY"/>
+            <xsd:enumeration value="LA"/>
+            <xsd:enumeration value="ME"/>
+            <xsd:enumeration value="MD"/>
+            <xsd:enumeration value="MA"/>
+            <xsd:enumeration value="MI"/>
+            <xsd:enumeration value="MN"/>
+            <xsd:enumeration value="MS"/>
+            <xsd:enumeration value="MO"/>
+            <xsd:enumeration value="MT"/>
+            <xsd:enumeration value="NE"/>
+            <xsd:enumeration value="NV"/>
+            <xsd:enumeration value="NH"/>
+            <xsd:enumeration value="NJ"/>
+            <xsd:enumeration value="NM"/>
+            <xsd:enumeration value="NY"/>
+            <xsd:enumeration value="NC"/>
+            <xsd:enumeration value="ND"/>
+            <xsd:enumeration value="OH"/>
+            <xsd:enumeration value="OK"/>
+            <xsd:enumeration value="OR"/>
+            <xsd:enumeration value="PA"/>
+            <xsd:enumeration value="RI"/>
+            <xsd:enumeration value="SC"/>
+            <xsd:enumeration value="SD"/>
+            <xsd:enumeration value="TN"/>
+            <xsd:enumeration value="TX"/>
+            <xsd:enumeration value="UT"/>
+            <xsd:enumeration value="VT"/>
+            <xsd:enumeration value="VA"/>
+            <xsd:enumeration value="WA"/>
+            <xsd:enumeration value="WV"/>
+            <xsd:enumeration value="WI"/>
+            <xsd:enumeration value="WY"/>
+            <xsd:enumeration value="DC"/>
         </xsd:restriction>
     </xsd:simpleType>
 
