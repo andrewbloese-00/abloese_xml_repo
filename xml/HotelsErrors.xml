@@ -124,8 +124,6 @@
             <City>Anaheim</City>
             <State>CA</State>
             <Zip>92805</Zip>
-        </Address>
-	</Hotel>
         <!-- Error (4) address has no closing tag -->
-        <!-- <Address> -->
+	</Hotel>
 </Hotel>
