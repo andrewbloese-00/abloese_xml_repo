@@ -61,25 +61,25 @@
                 type="xsd:string"
                 minOccurs="1"
                 maxOccurs="1"
-            >
+            />
             <xsd:element
                 name="City"
                 type="xsd:string"
                 minOccurs="1"
                 maxOccurs="1"
-            >
+            />
             <xsd:element
                 name="State"
                 type="USStateCode"
                 minOccurs="1"
                 maxOccurs="1"
-            >
+            />
             <xsd:element
                 name="Zip"
                 type="xsd:positiveInteger"
                 minOccurs="1"
                 maxOccurs="1"
-            >
+            />
         </xsd:sequence>
         
     </xsd:complexType>
