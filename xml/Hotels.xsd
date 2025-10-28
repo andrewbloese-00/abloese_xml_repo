@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF=8"?>
+
+<xsd:schema 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified"
+>
+    <xsd:complexType name="HotelsType">
+        <xsd:sequence>
+            <xsd:element name="Hotel" 
+                type="HotelDetailsType"
+                minOccurs="1" 
+                maxOccurs = "unbounded"
+            />
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="HotelDetailsType">
+        <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
+        <xsd:all>
+            <xsd:element
+                name="Name"
+                type="xsd:string"
+                minOccurs="1"
+                maxOccurs="1"
+            />
+            <xsd:element
+                name="Phone"
+                type="PhoneNumberType"
+                minOccurs="1"
+                maxOccurs="unbounded"     
+            />
+
+            <xsd:element
+                name="Address"
+                type="AddressType"
+                minOccurs="1"
+                maxOccurs="1"
+
+            />
+        </xsd:all>
+    </xsd:complexType>
+    <xsd:complexType name="AddressType">
+        <xsd:attribute 
+            name="NearestAirport" 
+            type="xsd:string" 
+            use="required"
+        />
+        <xsd:sequence>
+            <xsd:element
+                name="Number"
+                type="xsd:positiveInteger"
+                minOccurs="1"
+                maxOccurs="1"
+            />
+            <xsd:element
+                name="Street"
+                type="xsd:string"
+                minOccurs="1"
+                maxOccurs="1"
+            >
+            <xsd:element
+                name="City"
+                type="xsd:string"
+                minOccurs="1"
+                maxOccurs="1"
+            >
+            <xsd:element
+                name="State"
+                type="USStateCode"
+                minOccurs="1"
+                maxOccurs="1"
+            >
+            <xsd:element
+                name="Zip"
+                type="xsd:positiveInteger"
+                minOccurs="1"
+                maxOccurs="1"
+            >
+        </xsd:sequence>
+        
+    </xsd:complexType>
+    <!-- All valid US State Abbreviations -->
+    <xsd:simpleType name="USStateCode">
+        <xsd:restriction base="xsd:string">
+            <xs:enumeration value="AL"/>
+            <xs:enumeration value="AK"/>
+            <xs:enumeration value="AZ"/>
+            <xs:enumeration value="AR"/>
+            <xs:enumeration value="CA"/>
+            <xs:enumeration value="CO"/>
+            <xs:enumeration value="CT"/>
+            <xs:enumeration value="DE"/>
+            <xs:enumeration value="FL"/>
+            <xs:enumeration value="GA"/>
+            <xs:enumeration value="HI"/>
+            <xs:enumeration value="ID"/>
+            <xs:enumeration value="IL"/>
+            <xs:enumeration value="IN"/>
+            <xs:enumeration value="IA"/>
+            <xs:enumeration value="KS"/>
+            <xs:enumeration value="KY"/>
+            <xs:enumeration value="LA"/>
+            <xs:enumeration value="ME"/>
+            <xs:enumeration value="MD"/>
+            <xs:enumeration value="MA"/>
+            <xs:enumeration value="MI"/>
+            <xs:enumeration value="MN"/>
+            <xs:enumeration value="MS"/>
+            <xs:enumeration value="MO"/>
+            <xs:enumeration value="MT"/>
+            <xs:enumeration value="NE"/>
+            <xs:enumeration value="NV"/>
+            <xs:enumeration value="NH"/>
+            <xs:enumeration value="NJ"/>
+            <xs:enumeration value="NM"/>
+            <xs:enumeration value="NY"/>
+            <xs:enumeration value="NC"/>
+            <xs:enumeration value="ND"/>
+            <xs:enumeration value="OH"/>
+            <xs:enumeration value="OK"/>
+            <xs:enumeration value="OR"/>
+            <xs:enumeration value="PA"/>
+            <xs:enumeration value="RI"/>
+            <xs:enumeration value="SC"/>
+            <xs:enumeration value="SD"/>
+            <xs:enumeration value="TN"/>
+            <xs:enumeration value="TX"/>
+            <xs:enumeration value="UT"/>
+            <xs:enumeration value="VT"/>
+            <xs:enumeration value="VA"/>
+            <xs:enumeration value="WA"/>
+            <xs:enumeration value="WV"/>
+            <xs:enumeration value="WI"/>
+            <xs:enumeration value="WY"/>
+            <xs:enumeration value="DC"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!-- Phone Number Should Have Specified Format -->
+    <xsd:simpleType name="PhoneNumberType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern 
+                value="\d{3}-\d{3}-\d{4}"
+            />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>
