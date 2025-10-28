@@ -19,7 +19,6 @@
 
 
     <xsd:complexType name="HotelDetailsType">
-        <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
         <xsd:sequence>
             <xsd:element
                 name="Name"
@@ -42,13 +41,9 @@
 
             />
         </xsd:sequence>
+        <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
     </xsd:complexType>
     <xsd:complexType name="AddressType">
-        <xsd:attribute 
-            name="NearestAirport" 
-            type="xsd:string" 
-            use="required"
-        />
         <xsd:sequence>
             <xsd:element
                 name="Number"
@@ -81,6 +76,11 @@
                 maxOccurs="1"
             />
         </xsd:sequence>
+        <xsd:attribute 
+            name="NearestAirport" 
+            type="xsd:string" 
+            use="required"
+        />
         
     </xsd:complexType>
     <!-- All valid US State Abbreviations -->
