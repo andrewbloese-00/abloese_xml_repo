@@ -7,6 +7,9 @@
     elementFormDefault="qualified"
     attributeFormDefault="unqualified"
 >
+
+    <xsd:element name="Hotels" type="HotelsType"/>
+
     <xsd:complexType name="HotelsType">
         <xsd:sequence>
             <xsd:element name="Hotel" 
