@@ -41,7 +41,7 @@
                 maxOccurs="1"
 
             />
-        </xsd:all>
+        </xsd:sequence>
     </xsd:complexType>
     <xsd:complexType name="AddressType">
         <xsd:attribute 
