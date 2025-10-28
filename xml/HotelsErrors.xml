@@ -127,5 +127,5 @@
         </Address>
 	</Hotel>
         <!-- Error (4) address has no closing tag -->
-        <Address>
+        <!-- <Address> -->
 </Hotel>
